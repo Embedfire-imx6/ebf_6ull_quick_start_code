@@ -24,7 +24,7 @@ int main(int argc,char *argv[])
     int fd;
     int res;
     char *path;
-    char buf[128] = "Embedfire tty send test.\n";
+    char buf[1024] = "Embedfire tty send test.\n";
 
     if(argc > 1)
     {
